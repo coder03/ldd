@@ -9,4 +9,6 @@ Here, you have to create a device file under /dev
 $mknod /dev/veda_cdrv c 300 0
 $ls -l /dev/veda_cdrv
 
-
+To remove driver and veda_cdrv device:
+sudo rmmod char_driver_skel
+sudo rm /dev/veda_cdrv

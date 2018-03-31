@@ -6,6 +6,7 @@
 #include <linux/sched.h>
 #include <linux/errno.h>
 #include <asm/current.h>
+#include<linux/slab.h>
 
 #define MAJORNO 300
 #define MINORNO  0
